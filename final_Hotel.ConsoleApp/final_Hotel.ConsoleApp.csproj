@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\final_Hotel.Business\final_Hotel.Business.csproj" />
+    <ProjectReference Include="..\final_Hotel.DataAccess\final_Hotel.DataAccess.csproj" />
+    <ProjectReference Include="..\final_Hotel.Entities\final_Hotel.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
